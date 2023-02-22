@@ -1,0 +1,29 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "npm run start": {
+      "name": "npm run start",
+      "command": "npm run start",
+      "runAtStart": true
+    },
+    "cd ./p & npm run start": {
+      "name": "cd ./p & npm run start",
+      "command": "cd ./p & npm run start"
+    },
+    "./p npm run start": {
+      "name": "./p npm run start",
+      "command": "./p npm run start"
+    },
+    "./p & ls": {
+      "name": "./p & ls",
+      "command": "./p & ls"
+    },
+    "cd ./p & ls": {
+      "name": "cd ./p & ls",
+      "command": "cd ./p & ls"
+    }
+  }
+}
